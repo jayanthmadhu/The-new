@@ -19,7 +19,7 @@ public class A8 {
 		 int values= map.get(ch);
 		 map.put(ch, values+1);
 		 }
-		 System.out.println(map);
+		 System.out.println(map + " ");
 	}
 
 }

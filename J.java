@@ -1,13 +1,19 @@
-import java.util.*;
-public class J {
-	public static void main(String[] args) {
-		Map<String,Integer> s = new HashMap<>();
-		s.put("apple", 100);
-		s.put("banana", 100);
-		s.put("orange", 100);
-       s.forEach((name, salary) ->System.out.println("key is "+ name + "valie is " + salary));
-		
-		
-	}
+public class j {
+    public static void main(String[] args) {        
+        String s = "jayanth";
+        while (s.length() > 0) {
+           
+            char[] ch = s.toCharArray();
 
+           
+            for (int k = 1; k <= ch.length; k++) {
+                for (int i = 0; i < k; i++) {
+                    System.out.print(ch[i]);
+                }
+                System.out.println();  
+            }         
+            System.out.println("      ");
+            s = s.substring(1);  
+        }
+    }
 }
